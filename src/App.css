@@ -126,6 +126,21 @@
   padding-right: 40px;
 }
 
+select {
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 0.25em;
+  border: 1px solid #ccc;
+  outline: none;
+  background-color: #fff;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+select option:first-child {
+  color: #ccc;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
